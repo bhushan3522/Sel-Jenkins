@@ -25,7 +25,7 @@ public class TestGoogleHomePage extends DriverFactory  {
 		System.out.println("Fetching Google Home Page");
 		driver.get("https://www.google.com");
 		
-		Assert.assertEquals(driver.getTitle(), "Google", "Actual title is not matching with expected one");
+		Assert.assertEquals(driver.getTitle(), "Google1", "Actual title is not matching with expected one");
 		
 	}
 	
